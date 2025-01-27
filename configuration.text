@@ -1,0 +1,5 @@
+--Get the petlovers.sql file and import to Database
+--Change the DB Connection Details in /common/connection.php
+--change following details in /common/connection.php for mail configuration
+$config_email = "yourmail@mail.com";
+$config_password = "password";

@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+}
+
+.card-shadow {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(235, 235, 235, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(235, 235, 235, 1);
+    box-shadow: 0px 0px 5px 0px rgba(235, 235, 235, 1);
+}
+
+.page-body {
+    min-height: calc(100vh - 277px);
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 25px;
+    margin: auto;
+    border: 1px solid #ffc107;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 193, 7, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(255, 193, 7, 1);
+    box-shadow: 0px 0px 5px 0px rgba(255, 193, 7, 1);
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signup {
+    padding: 25px;
+    margin: auto;
+    border: 1px solid #ffc107;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 193, 7, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(255, 193, 7, 1);
+    box-shadow: 0px 0px 5px 0px rgba(255, 193, 7, 1);
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    border-color: #dc3545 !important;
+}
+
+.form-check-input.is-invalid~.form-check-label,
+.was-validated .form-check-input:invalid~.form-check-label {
+    color: #dc3545 !important;
+}
+
+.form-check-input.is-invalid,
+.was-validated .form-check-input:invalid {
+    border-color: #dc3545 !important;
+}
